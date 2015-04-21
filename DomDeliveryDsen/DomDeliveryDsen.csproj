@@ -85,20 +85,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Categoria.cs" />
-    <Compile Include="Models\Empresa.cs" />
-    <Compile Include="Models\Loja.cs" />
-    <Compile Include="Models\Produtos.cs" />
-    <Compile Include="Models\Secao.cs" />
-    <Compile Include="Models\Tamanho.cs" />
+    <Compile Include="Areas\Admin\Models\Categoria.cs" />
+    <Compile Include="Areas\Admin\Models\Empresa.cs" />
+    <Compile Include="Areas\Admin\Models\Loja.cs" />
+    <Compile Include="Areas\Admin\Models\Produtos.cs" />
+    <Compile Include="Areas\Admin\Models\Secao.cs" />
+    <Compile Include="Areas\Admin\Models\Tamanho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -108,7 +110,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Controllers\" />
+    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
