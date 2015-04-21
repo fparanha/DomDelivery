@@ -15,6 +15,5 @@ namespace DomDeliveryDsen.Areas.Admin.Models
         public virtual string Bairro { get; set; }
         public virtual string Cidade { get; set; }
         public virtual string Uf { get; set; }
-
     }
 }
