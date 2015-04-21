@@ -8,7 +8,7 @@ namespace DomDeliveryDsen.Models
     public class Tamanho
     {
         public virtual int Id { get; set; }
-        public virtual Loja IdLoja { get; set; }
+        public virtual Lojas IdLoja { get; set; }
         public virtual string Nome { get; set; }
         public virtual string Descricao { get; set; }
         public virtual int QuantidadeSabor { get; set; }

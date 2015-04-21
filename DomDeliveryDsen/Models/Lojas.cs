@@ -5,7 +5,7 @@ using System.Web;
 
 namespace DomDeliveryDsen.Models
 {
-    public class Loja
+    public class Lojas
     {
         public virtual int IdLoja { get; set; }
         public virtual Empresa IdEmpresa { get; set; }
