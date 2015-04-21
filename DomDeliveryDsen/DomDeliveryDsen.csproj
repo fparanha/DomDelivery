@@ -88,9 +88,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Empresa.cs" />
     <Compile Include="Models\Loja.cs" />
-    <Compile Include="Models\Secoes.cs" />
+    <Compile Include="Models\Secao.cs" />
     <Compile Include="Models\Tamanho.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
