@@ -8,7 +8,7 @@ namespace DomDeliveryDsen.Models
     public class Secao
     {
         public virtual int Id { get; set; }
-        public virtual Lojas IdLoja { get; set; }
+        public virtual Loja IdLoja { get; set; }
         public virtual string Nome { get; set; }
         public virtual bool Exibir { get; set; }
         public virtual int OrdemExibicao { get; set; }
