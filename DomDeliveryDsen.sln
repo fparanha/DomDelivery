@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomDeliveryDsen", "DomDeliveryDsen\DomDeliveryDsen.csproj", "{2B17FFA4-76B1-4E6B-B0CD-26F21579DFF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomDeliveryDsen.Tests", "DomDeliveryDsen.Tests\DomDeliveryDsen.Tests.csproj", "{7D02729C-69B7-4849-9528-74018C0EACB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B17FFA4-76B1-4E6B-B0CD-26F21579DFF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B17FFA4-76B1-4E6B-B0CD-26F21579DFF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B17FFA4-76B1-4E6B-B0CD-26F21579DFF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B17FFA4-76B1-4E6B-B0CD-26F21579DFF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D02729C-69B7-4849-9528-74018C0EACB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D02729C-69B7-4849-9528-74018C0EACB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D02729C-69B7-4849-9528-74018C0EACB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D02729C-69B7-4849-9528-74018C0EACB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
